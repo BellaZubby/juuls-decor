@@ -13,12 +13,12 @@ const About = ({setSelectedPage}: Props) => {
   return (
     <section
         id='about'
-        className=' flex items-center w-5/6 mx-auto h-screen'
+        className='flex items-center w-5/6 mx-auto py-28'
     >
         <motion.div onViewportEnter={() => setSelectedPage(SelectedPage.About)}>
             
             <motion.div 
-                className='flex flex-col items-center justify-center'
+                className=''
                 initial='hidden'
                 whileInView='visible'
                 viewport={{once:true, amount:0.5}}

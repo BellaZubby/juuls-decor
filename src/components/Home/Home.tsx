@@ -55,14 +55,14 @@ const Home = ({setSelectedPage}: Props) => {
   return (
     <section
         id="home"
-        className='mt-18 h-full'
+        className='mt-20 h-screen'
     >
        <motion.div 
         style={bgImageStyle} 
-        className='w-full h-[570px]'
+        className='w-full h-full'
         onViewportEnter={() => setSelectedPage(SelectedPage.Home)}
         >
-           <div className='w-full h-[570px] bg-primary-100 flex items-center'>
+           <div className='w-full h-full bg-primary-100 flex items-center'>
              <motion.div 
                 className='ml-9 w-[60%] md:w-[33%] md:ml-24'
                 initial='hidden'
